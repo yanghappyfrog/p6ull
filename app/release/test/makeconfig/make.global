@@ -1,0 +1,28 @@
+# compile macro
+#CC		= gcc
+CC		= arm-linux-gnueabihf-gcc
+#CFLAGS	= -O2 -Wall
+CFLAGS	= 
+LDFLAGS	= -lm -lpthread
+INCLUDES= 
+
+
+# recursive make
+.PHONY: subdirs ${SUBDIRS} cleansubdirs
+subdirs: ${SUBDIRS}
+${SUBDIRS}:
+	${MAKE} -C $@ all
+
+	
+# recursive make clean
+cleansubdirs:
+	@for dir in ${SUBDIRS}; do \
+		${MAKE} -C $$dir clean; \
+	done
+
+	
+# dependence
+%.o: %.cpp
+	${CC} ${CFLAGS} ${INCLUDES} -c $< -o $@
+%.o: %.cc
+	${CC} ${CFLAGS} ${INCLUDES} -c $< -o $@	

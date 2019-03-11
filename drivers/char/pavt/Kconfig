@@ -1,0 +1,30 @@
+config UART_GPIO 
+	tristate "UART GPIO DRIVER"
+	default Y
+	help
+		uart cs gpio driver.
+
+config KEYPAD
+	tristate "PAVT KEYPAD DRIVER"
+	default Y
+	help
+		oled driver.
+		
+config OTHER_GPIO
+	tristate "OTHER GPIO(buzzer and so on) DRIVER"
+	default Y
+	help
+		extern card io control driver.
+
+config DMX512_GPIO
+	tristate "DMX512 GPIO DRIVER"
+	default Y
+	help
+		DMX512 io control driver.
+
+config EXT1
+	tristate "PAVT EXT COM1 INT DRIVER"
+	default Y
+	help
+		ext com1 int driver.
+		

@@ -1,0 +1,20 @@
+#page 13
+#通路电流求和信息
+#CH0~CH15:各通路求和信息
+[elec_data]
+CH0=
+CH1=
+CH2=
+CH3=
+CH4=
+CH5=
+CH6=
+CH7=
+CH8=
+CH9=
+CH10=
+CH11=
+CH12=
+CH13=
+CH14=
+CH15=

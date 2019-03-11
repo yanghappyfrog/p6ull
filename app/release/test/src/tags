@@ -1,0 +1,491 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABS	include/type.h	9;"	d
+ARRAY_SIZE	spi/spi.c	20;"	d	file:
+ASCIILINESZ	iniparser/iniparser.c	13;"	d	file:
+A_LED	front_panel/front_panel.h	44;"	d
+BLUE	front_panel/front_panel.h	54;"	d
+BUFSZ	key/key.c	30;"	d	file:
+BUFSZ	net/client.h	27;"	d
+CARD_MAJIC	include/other_gpio.h	1;"	d
+CARD_MAJIC	key/other_gpio.h	2;"	d
+CH1	front_panel/front_panel.h	63;"	d
+CH10	front_panel/front_panel.h	75;"	d
+CH11	front_panel/front_panel.h	74;"	d
+CH12	front_panel/front_panel.h	73;"	d
+CH2	front_panel/front_panel.h	64;"	d
+CH3	front_panel/front_panel.h	65;"	d
+CH4	front_panel/front_panel.h	66;"	d
+CH5	front_panel/front_panel.h	67;"	d
+CH6	front_panel/front_panel.h	68;"	d
+CH7	front_panel/front_panel.h	78;"	d
+CH8	front_panel/front_panel.h	77;"	d
+CH9	front_panel/front_panel.h	76;"	d
+CHANNEL	scan_com/scan_com.h	20;"	d
+CIRCUIT	scan_com/scan_com.h	30;"	d
+CIR_DATA_FILE	get_data/get_data.c	26;"	d	file:
+CLAMP	include/type.h	10;"	d
+CLEAN	front_panel/front_panel.h	40;"	d
+CLOSE	front_panel/front_panel.h	51;"	d
+CYAN	front_panel/front_panel.h	57;"	d
+DICTMINSZ	iniparser/dictionary.c	17;"	d	file:
+DICT_INVALID_KEY	iniparser/dictionary.c	18;"	d	file:
+DISABLE	serial/serial.h	/^typedef enum {DISABLE = 0, ENABLE} RS485_ENABLE_t;$/;"	e	enum:__anon2
+DOWN	front_panel/front_panel.h	80;"	d
+ELECT	scan_com/scan_com.h	27;"	d
+ELEC_DATA_FILE	get_data/get_data.c	27;"	d	file:
+ENABLE	serial/serial.h	/^typedef enum {DISABLE = 0, ENABLE} RS485_ENABLE_t;$/;"	e	enum:__anon2
+ENTER	front_panel/front_panel.h	79;"	d
+EX_UART_FILE	get_data/get_data.c	25;"	d	file:
+E_UART	main.h	31;"	d
+E_UART	serial/serial.c	3;"	d	file:
+E_UART_ADDR	main.h	32;"	d
+FALSE	include/type.h	6;"	d
+FIRST	front_panel/front_panel.h	45;"	d
+FOURTH	front_panel/front_panel.h	48;"	d
+FRONT_PANEL	main.h	34;"	d
+GPS_DATA_FILE	get_data/get_data.c	28;"	d	file:
+GPS_LUX	scan_com/scan_com.h	29;"	d
+GREEN	front_panel/front_panel.h	53;"	d
+HEART	front_panel/front_panel.h	41;"	d
+I2C_FUNCS	include/i2c-dev.h	135;"	d
+I2C_FUNC_10BIT_ADDR	include/i2c-dev.h	54;"	d
+I2C_FUNC_I2C	include/i2c-dev.h	53;"	d
+I2C_FUNC_PROTOCOL_MANGLING	include/i2c-dev.h	55;"	d
+I2C_FUNC_SMBUS_BLOCK_DATA	include/i2c-dev.h	77;"	d
+I2C_FUNC_SMBUS_BLOCK_PROC_CALL	include/i2c-dev.h	57;"	d
+I2C_FUNC_SMBUS_BYTE	include/i2c-dev.h	71;"	d
+I2C_FUNC_SMBUS_BYTE_DATA	include/i2c-dev.h	73;"	d
+I2C_FUNC_SMBUS_HWPEC_CALC	include/i2c-dev.h	83;"	d
+I2C_FUNC_SMBUS_I2C_BLOCK	include/i2c-dev.h	79;"	d
+I2C_FUNC_SMBUS_PEC	include/i2c-dev.h	56;"	d
+I2C_FUNC_SMBUS_PROC_CALL	include/i2c-dev.h	65;"	d
+I2C_FUNC_SMBUS_QUICK	include/i2c-dev.h	58;"	d
+I2C_FUNC_SMBUS_READ_BLOCK_DATA	include/i2c-dev.h	66;"	d
+I2C_FUNC_SMBUS_READ_BYTE	include/i2c-dev.h	59;"	d
+I2C_FUNC_SMBUS_READ_BYTE_DATA	include/i2c-dev.h	61;"	d
+I2C_FUNC_SMBUS_READ_I2C_BLOCK	include/i2c-dev.h	68;"	d
+I2C_FUNC_SMBUS_READ_WORD_DATA	include/i2c-dev.h	63;"	d
+I2C_FUNC_SMBUS_WORD_DATA	include/i2c-dev.h	75;"	d
+I2C_FUNC_SMBUS_WRITE_BLOCK_DATA	include/i2c-dev.h	67;"	d
+I2C_FUNC_SMBUS_WRITE_BYTE	include/i2c-dev.h	60;"	d
+I2C_FUNC_SMBUS_WRITE_BYTE_DATA	include/i2c-dev.h	62;"	d
+I2C_FUNC_SMBUS_WRITE_I2C_BLOCK	include/i2c-dev.h	69;"	d
+I2C_FUNC_SMBUS_WRITE_WORD_DATA	include/i2c-dev.h	64;"	d
+I2C_M_IGNORE_NAK	include/i2c-dev.h	45;"	d
+I2C_M_NOSTART	include/i2c-dev.h	43;"	d
+I2C_M_NO_RD_ACK	include/i2c-dev.h	46;"	d
+I2C_M_RD	include/i2c-dev.h	42;"	d
+I2C_M_REV_DIR_ADDR	include/i2c-dev.h	44;"	d
+I2C_M_TEN	include/i2c-dev.h	41;"	d
+I2C_PEC	include/i2c-dev.h	137;"	d
+I2C_RDWR	include/i2c-dev.h	136;"	d
+I2C_RETRIES	include/i2c-dev.h	120;"	d
+I2C_SLAVE	include/i2c-dev.h	127;"	d
+I2C_SLAVE_FORCE	include/i2c-dev.h	129;"	d
+I2C_SMBUS	include/i2c-dev.h	139;"	d
+I2C_SMBUS_BLOCK_DATA	include/i2c-dev.h	108;"	d
+I2C_SMBUS_BLOCK_MAX	include/i2c-dev.h	88;"	d
+I2C_SMBUS_BLOCK_PROC_CALL	include/i2c-dev.h	110;"	d
+I2C_SMBUS_BYTE	include/i2c-dev.h	104;"	d
+I2C_SMBUS_BYTE_DATA	include/i2c-dev.h	105;"	d
+I2C_SMBUS_I2C_BLOCK_BROKEN	include/i2c-dev.h	109;"	d
+I2C_SMBUS_I2C_BLOCK_DATA	include/i2c-dev.h	111;"	d
+I2C_SMBUS_I2C_BLOCK_MAX	include/i2c-dev.h	89;"	d
+I2C_SMBUS_PROC_CALL	include/i2c-dev.h	107;"	d
+I2C_SMBUS_QUICK	include/i2c-dev.h	103;"	d
+I2C_SMBUS_READ	include/i2c-dev.h	98;"	d
+I2C_SMBUS_WORD_DATA	include/i2c-dev.h	106;"	d
+I2C_SMBUS_WRITE	include/i2c-dev.h	99;"	d
+I2C_TENBIT	include/i2c-dev.h	133;"	d
+I2C_TIMEOUT	include/i2c-dev.h	123;"	d
+ID	version/version.h	8;"	d
+ID_DATA_FILE	get_data/get_data.c	30;"	d	file:
+INI_INVALID_KEY	iniparser/iniparser.c	14;"	d	file:
+IOREQ_BUZZER_OFF	include/other_gpio.h	3;"	d
+IOREQ_BUZZER_OFF	key/other_gpio.h	4;"	d
+IOREQ_BUZZER_ON	include/other_gpio.h	2;"	d
+IOREQ_BUZZER_ON	key/other_gpio.h	3;"	d
+IP	net/client.h	29;"	d
+IP	net/server.c	22;"	d	file:
+I_UART	main.h	33;"	d
+I_UART	serial/serial.c	4;"	d	file:
+KEY	front_panel/front_panel.h	39;"	d
+KEYPAD_DEV	key/key.c	33;"	d	file:
+KEY_DEV	main.h	35;"	d
+LIB_I2CDEV_H	include/i2c-dev.h	26;"	d
+LINE_COMMENT	iniparser/iniparser.c	/^    LINE_COMMENT,$/;"	e	enum:_line_status_	file:
+LINE_EMPTY	iniparser/iniparser.c	/^    LINE_EMPTY,$/;"	e	enum:_line_status_	file:
+LINE_ERROR	iniparser/iniparser.c	/^    LINE_ERROR,$/;"	e	enum:_line_status_	file:
+LINE_SECTION	iniparser/iniparser.c	/^    LINE_SECTION,$/;"	e	enum:_line_status_	file:
+LINE_UNPROCESSED	iniparser/iniparser.c	/^    LINE_UNPROCESSED,$/;"	e	enum:_line_status_	file:
+LINE_VALUE	iniparser/iniparser.c	/^    LINE_VALUE$/;"	e	enum:_line_status_	file:
+LOG_FILE	main.c	10;"	d	file:
+MAX	include/type.h	8;"	d
+MAXCOLOUR	front_panel/front_panel.h	33;"	d
+MAXPAGE	front_panel/front_panel.h	30;"	d
+MAXVALSZ	iniparser/dictionary.c	16;"	d	file:
+MAX_BUF	board/pwmconfig.h	12;"	d
+MIN	include/type.h	7;"	d
+MIX_DEV	main.h	30;"	d
+NUL	scan_com/scan_com.h	33;"	d
+OBJECTS	Makefile	/^OBJECTS	= main.o$/;"	m
+OBJECTS	board/Makefile	/^OBJECTS = board.o$/;"	m
+OBJECTS	front_panel/Makefile	/^OBJECTS = front_panel.o oled.o led.o page.o$/;"	m
+OBJECTS	get_data/Makefile	/^OBJECTS = get_data.o$/;"	m
+OBJECTS	iniparser/Makefile	/^OBJECTS = iniparser.o dictionary.o$/;"	m
+OBJECTS	key/Makefile	/^OBJECTS = key.o$/;"	m
+OBJECTS	net/Makefile	/^OBJECTS = client.o$/;"	m
+OBJECTS	pool/Makefile	/^OBJECTS = pool.o$/;"	m
+OBJECTS	scan_com/Makefile	/^OBJECTS = scan_com.o$/;"	m
+OBJECTS	serial/Makefile	/^OBJECTS = serial.o$/;"	m
+OBJECTS	spi/Makefile	/^OBJECTS = spi.o$/;"	m
+OBJECTS	version/Makefile	/^OBJECTS = version.o$/;"	m
+P6ULL_FILE	get_data/get_data.c	24;"	d	file:
+PANEL_ADDR	front_panel/front_panel.h	36;"	d
+PINK	front_panel/front_panel.h	56;"	d
+POOL_RUN_NUM	main.h	39;"	d
+PORT	net/client.h	28;"	d
+PORT	net/server.c	21;"	d	file:
+POWER	scan_com/scan_com.h	28;"	d
+POWER_DATA_FILE	get_data/get_data.c	29;"	d	file:
+RED	front_panel/front_panel.h	52;"	d
+RS485_ENABLE_t	serial/serial.h	/^typedef enum {DISABLE = 0, ENABLE} RS485_ENABLE_t;$/;"	t	typeref:enum:__anon2
+SCANER	scan_com/scan_com.h	31;"	d
+SECOND	front_panel/front_panel.h	46;"	d
+SET	front_panel/front_panel.h	62;"	d
+SUBDIRS	Makefile	/^SUBDIRS	= board iniparser scan_com serial spi version front_panel pool net$/;"	m
+SUBDIRS	board/Makefile	/^SUBDIRS = $/;"	m
+SUBDIRS	front_panel/Makefile	/^SUBDIRS = $/;"	m
+SUBDIRS	get_data/Makefile	/^SUBDIRS = $/;"	m
+SUBDIRS	iniparser/Makefile	/^SUBDIRS = $/;"	m
+SUBDIRS	key/Makefile	/^SUBDIRS = $/;"	m
+SUBDIRS	net/Makefile	/^SUBDIRS = $/;"	m
+SUBDIRS	pool/Makefile	/^SUBDIRS = $/;"	m
+SUBDIRS	scan_com/Makefile	/^SUBDIRS = $/;"	m
+SUBDIRS	serial/Makefile	/^SUBDIRS = $/;"	m
+SUBDIRS	spi/Makefile	/^SUBDIRS = $/;"	m
+SUBDIRS	version/Makefile	/^SUBDIRS = $/;"	m
+SWITCH	scan_com/scan_com.h	32;"	d
+SYSFS_PWM_DIR	board/pwmconfig.h	11;"	d
+S_CHAR	front_panel/front_panel.h	42;"	d
+S_LED	front_panel/front_panel.h	43;"	d
+TEST_RESULT_FILE	main.h	37;"	d
+THIRD	front_panel/front_panel.h	47;"	d
+TRUE	include/type.h	5;"	d
+ThreadPool	pool/pool.h	/^}ThreadPool;$/;"	t	typeref:struct:__anon1
+UART_DEV	get_data/get_data.c	32;"	d	file:
+UART_DEV	scan_com/scan_com.h	18;"	d
+UART_GPIO	get_data/get_data.c	33;"	d	file:
+UART_GPIO	scan_com/scan_com.h	19;"	d
+UP	front_panel/front_panel.h	61;"	d
+V_FW	version/version.h	12;"	d
+V_KERNEL	version/version.h	10;"	d
+V_SO	version/version.h	11;"	d
+V_UBOOT	version/version.h	9;"	d
+WHITE	front_panel/front_panel.h	58;"	d
+WorkHandle	pool/pool.h	/^typedef void *(*WorkHandle)(void *arg);$/;"	t
+Worker	pool/pool.h	/^typedef struct worker Worker;$/;"	t	typeref:struct:worker
+YELLOW	front_panel/front_panel.h	55;"	d
+_DICTIONARY_H_	iniparser/dictionary.h	4;"	d
+_INIPARSER_H_	iniparser/iniparser.h	3;"	d
+__FRONT_PANEL_H	front_panel/front_panel.h	2;"	d
+__MAIN_H__	main.h	10;"	d
+__SERIAL_H	serial/serial.h	9;"	d
+__THREAD_POOL_H	pool/pool.h	2;"	d
+__TYPE_H__	include/type.h	3;"	d
+__anon1::cur_queue_num	pool/pool.h	/^    int cur_queue_num;   \/* 当前等待队列的任务数目 *\/$/;"	m	struct:__anon1	access:public
+__anon1::cur_run_num	pool/pool.h	/^    int cur_run_num;     \/* 当前正在运行的线程*\/ $/;"	m	struct:__anon1	access:public
+__anon1::queue_head	pool/pool.h	/^    Worker *queue_head;$/;"	m	struct:__anon1	access:public
+__anon1::queue_lock	pool/pool.h	/^    pthread_mutex_t queue_lock;$/;"	m	struct:__anon1	access:public
+__anon1::queue_ready	pool/pool.h	/^    pthread_cond_t  queue_ready;$/;"	m	struct:__anon1	access:public
+__anon1::thread_pool_sum	pool/pool.h	/^    int thread_pool_sum; \/* 当前总的任务队列数 *\/$/;"	m	struct:__anon1	access:public
+__anon1::threadid	pool/pool.h	/^    pthread_t * threadid;$/;"	m	struct:__anon1	access:public
+_dictionary_	iniparser/dictionary.h	/^typedef struct _dictionary_ {$/;"	s
+_dictionary_::hash	iniparser/dictionary.h	/^    unsigned     *  hash ;  \/** List of hash values for keys *\/$/;"	m	struct:_dictionary_	access:public
+_dictionary_::key	iniparser/dictionary.h	/^    char        **  key ;   \/** List of string keys *\/$/;"	m	struct:_dictionary_	access:public
+_dictionary_::n	iniparser/dictionary.h	/^    int             n ;     \/** Number of entries in dictionary *\/$/;"	m	struct:_dictionary_	access:public
+_dictionary_::size	iniparser/dictionary.h	/^    ssize_t         size ;  \/** Storage size *\/$/;"	m	struct:_dictionary_	access:public
+_dictionary_::val	iniparser/dictionary.h	/^    char        **  val ;   \/** List of string values *\/$/;"	m	struct:_dictionary_	access:public
+_line_status_	iniparser/iniparser.c	/^typedef enum _line_status_ {$/;"	g	file:
+addr	include/i2c-dev.h	/^	__u16 addr;	\/* slave address			*\/$/;"	m	struct:i2c_msg	access:public
+address	main.h	/^	struct sockaddr_in address;  $/;"	m	struct:pavt_dev	typeref:struct:pavt_dev::sockaddr_in	access:public
+analy_key	front_panel/front_panel.c	/^void analy_key(int key_val)$/;"	f	signature:(int key_val)
+analyze_buf	scan_com/scan_com.c	/^int analyze_buf(dictionary *ini, char *r_buf, int channel)$/;"	f	signature:(dictionary *ini, char *r_buf, int channel)
+arg	pool/pool.h	/^    void *arg;$/;"	m	struct:worker	access:public
+bits	spi/spi.c	/^static uint8_t bits = 8;$/;"	v	file:
+block	include/i2c-dev.h	/^	__u8 block[I2C_SMBUS_BLOCK_MAX + 2]; \/* block[0] is used for length *\/$/;"	m	union:i2c_smbus_data	access:public
+buf	include/i2c-dev.h	/^	char *buf;		\/* pointer to msg data			*\/$/;"	m	struct:i2c_msg	access:public
+byte	include/i2c-dev.h	/^	__u8 byte;$/;"	m	union:i2c_smbus_data	access:public
+change_ch_led	front_panel/led.c	/^void change_ch_led()$/;"	f
+cir	get_data/get_data.c	/^	int cir;$/;"	m	struct:data	file:	access:public
+clean_oled	front_panel/oled.c	/^void clean_oled()$/;"	f
+clean_oled	front_panel/oled.h	/^void clean_oled();$/;"	p	signature:()
+clifd	main.h	/^	int clifd;$/;"	m	struct:pavt_dev	access:public
+command	include/i2c-dev.h	/^	__u8 command;$/;"	m	struct:i2c_smbus_ioctl_data	access:public
+cur_queue_num	pool/pool.h	/^    int cur_queue_num;   \/* 当前等待队列的任务数目 *\/$/;"	m	struct:__anon1	access:public
+cur_run_num	pool/pool.h	/^    int cur_run_num;     \/* 当前正在运行的线程*\/ $/;"	m	struct:__anon1	access:public
+data	get_data/get_data.c	/^struct data {$/;"	s	file:
+data	include/i2c-dev.h	/^	union i2c_smbus_data *data;$/;"	m	struct:i2c_smbus_ioctl_data	typeref:union:i2c_smbus_ioctl_data::i2c_smbus_data	access:public
+data::cir	get_data/get_data.c	/^	int cir;$/;"	m	struct:data	file:	access:public
+data::elec	get_data/get_data.c	/^	int elec;$/;"	m	struct:data	file:	access:public
+data::gps	get_data/get_data.c	/^	int gps;$/;"	m	struct:data	file:	access:public
+data::id	get_data/get_data.c	/^	int id;$/;"	m	struct:data	file:	access:public
+data::power	get_data/get_data.c	/^	int power;$/;"	m	struct:data	file:	access:public
+data_init	main.c	/^int data_init()$/;"	f
+default_error_callback	iniparser/iniparser.c	/^static int default_error_callback(const char *format, ...)$/;"	f	file:	signature:(const char *format, ...)
+delay	spi/spi.c	/^static uint16_t delay;$/;"	v	file:
+detect_4g	board/board.c	/^void detect_4g(dictionary *ini)$/;"	f	signature:(dictionary *ini)
+detect_board	board/board.c	/^void detect_board(void)$/;"	f	signature:(void)
+detect_board	board/board.h	/^void detect_board(void);$/;"	p	signature:(void)
+detect_clock	board/board.c	/^void detect_clock(dictionary *ini)$/;"	f	signature:(dictionary *ini)
+detect_net	board/board.c	/^void detect_net(dictionary *ini)$/;"	f	signature:(dictionary *ini)
+detect_temp	board/board.c	/^void detect_temp(dictionary *ini)$/;"	f	signature:(dictionary *ini)
+device	spi/spi.c	/^static const char *device = "\/dev\/spidev1.0";$/;"	v	file:
+dictionary	iniparser/dictionary.h	/^} dictionary ;$/;"	t	typeref:struct:_dictionary_
+dictionary_del	iniparser/dictionary.c	/^void dictionary_del(dictionary * d)$/;"	f	signature:(dictionary * d)
+dictionary_del	iniparser/dictionary.h	/^void dictionary_del(dictionary * vd);$/;"	p	signature:(dictionary * vd)
+dictionary_dump	iniparser/dictionary.c	/^void dictionary_dump(const dictionary * d, FILE * out)$/;"	f	signature:(const dictionary * d, FILE * out)
+dictionary_dump	iniparser/dictionary.h	/^void dictionary_dump(const dictionary * d, FILE * out);$/;"	p	signature:(const dictionary * d, FILE * out)
+dictionary_get	iniparser/dictionary.c	/^const char * dictionary_get(const dictionary * d, const char * key, const char * def)$/;"	f	signature:(const dictionary * d, const char * key, const char * def)
+dictionary_get	iniparser/dictionary.h	/^const char * dictionary_get(const dictionary * d, const char * key, const char * def);$/;"	p	signature:(const dictionary * d, const char * key, const char * def)
+dictionary_grow	iniparser/dictionary.c	/^static int dictionary_grow(dictionary * d)$/;"	f	file:	signature:(dictionary * d)
+dictionary_hash	iniparser/dictionary.c	/^unsigned dictionary_hash(const char * key)$/;"	f	signature:(const char * key)
+dictionary_hash	iniparser/dictionary.h	/^unsigned dictionary_hash(const char * key);$/;"	p	signature:(const char * key)
+dictionary_new	iniparser/dictionary.c	/^dictionary * dictionary_new(size_t size)$/;"	f	signature:(size_t size)
+dictionary_new	iniparser/dictionary.h	/^dictionary * dictionary_new(size_t size);$/;"	p	signature:(size_t size)
+dictionary_set	iniparser/dictionary.c	/^int dictionary_set(dictionary * d, const char * key, const char * val)$/;"	f	signature:(dictionary * d, const char * key, const char * val)
+dictionary_set	iniparser/dictionary.h	/^int dictionary_set(dictionary * vd, const char * key, const char * val);$/;"	p	signature:(dictionary * vd, const char * key, const char * val)
+dictionary_unset	iniparser/dictionary.c	/^void dictionary_unset(dictionary * d, const char * key)$/;"	f	signature:(dictionary * d, const char * key)
+dictionary_unset	iniparser/dictionary.h	/^void dictionary_unset(dictionary * d, const char * key);$/;"	p	signature:(dictionary * d, const char * key)
+elec	get_data/get_data.c	/^	int elec;$/;"	m	struct:data	file:	access:public
+exit_bool	pool/pool.c	/^static int exit_bool = FALSE;$/;"	v	file:
+exuart_addr	main.h	/^	int exuart_addr;$/;"	m	struct:pavt_dev	access:public
+exuart_fd	main.h	/^	int exuart_fd;$/;"	m	struct:pavt_dev	access:public
+fan_dev_create	board/pwm_create.c	/^int fan_dev_create(void)$/;"	f	signature:(void)
+fan_dev_create	board/pwmconfig.h	/^int fan_dev_create(void);$/;"	p	signature:(void)
+flags	include/i2c-dev.h	/^	unsigned short flags;		$/;"	m	struct:i2c_msg	access:public
+flash_all_ch	front_panel/led.c	/^int flash_all_ch()$/;"	f
+flash_all_led	front_panel/led.c	/^int flash_all_led()$/;"	f
+flash_all_led	front_panel/led.h	/^int flash_all_led();$/;"	p	signature:()
+flash_ch	front_panel/led.c	/^int flash_ch(int num, int statu, int ch)$/;"	f	signature:(int num, int statu, int ch)
+flash_char	front_panel/oled.c	/^int flash_char(int x, int y, char c)$/;"	f	signature:(int x, int y, char c)
+flash_char	front_panel/oled.h	/^int flash_char(int x, int y, char c);$/;"	p	signature:(int x, int y, char c)
+flash_led	front_panel/led.c	/^int flash_led(int x, int y, int c)$/;"	f	signature:(int x, int y, int c)
+flash_led	front_panel/led.h	/^int flash_led(int x, int y, int c);$/;"	p	signature:(int x, int y, int c)
+flash_line	front_panel/oled.c	/^int flash_line(char *w_buf, int line)$/;"	f	signature:(char *w_buf, int line)
+flash_line	front_panel/oled.h	/^int flash_line(char *w_buf, int line);$/;"	p	signature:(char *w_buf, int line)
+flash_oled	front_panel/oled.c	/^int flash_oled(char w_buf[4][16])$/;"	f	signature:(char w_buf[4][16])
+flash_oled	front_panel/oled.h	/^int flash_oled(char w_buf[4][16]);$/;"	p	signature:(char w_buf[4][16])
+front_panel	front_panel/front_panel.c	/^void front_panel(void)$/;"	f	signature:(void)
+front_panel	front_panel/front_panel.h	/^void front_panel();$/;"	p	signature:()
+gdev	main.h	/^struct pavt_dev gdev;$/;"	v	typeref:struct:pavt_dev
+get_channle	get_data/get_data.c	/^int get_channle()$/;"	f
+get_cir_data	get_data/get_data.c	/^int get_cir_data(int cir_ch)$/;"	f	signature:(int cir_ch)
+get_elec_data	get_data/get_data.c	/^int get_elec_data(int elec_ch)$/;"	f	signature:(int elec_ch)
+get_gps_data	get_data/get_data.c	/^int get_gps_data(int gps_ch)$/;"	f	signature:(int gps_ch)
+get_id_data	get_data/get_data.c	/^int get_id_data(int uart_fd, int gpio_fd, int id_ch)$/;"	f	signature:(int uart_fd, int gpio_fd, int id_ch)
+get_page1_data	front_panel/page.c	/^void get_page1_data()$/;"	f
+get_page1_data	front_panel/page.h	/^void get_page1_data();$/;"	p	signature:()
+get_page2_data	front_panel/page.c	/^void get_page2_data()$/;"	f
+get_page2_data	front_panel/page.h	/^void get_page2_data();$/;"	p	signature:()
+get_page3_data	front_panel/page.c	/^void get_page3_data()$/;"	f
+get_page3_data	front_panel/page.h	/^void get_page3_data();$/;"	p	signature:()
+get_page4_data	front_panel/page.c	/^void get_page4_data()$/;"	f
+get_page4_data	front_panel/page.h	/^void get_page4_data();$/;"	p	signature:()
+get_page5_data	front_panel/page.c	/^void get_page5_data()$/;"	f
+get_page6_data	front_panel/page.c	/^void get_page6_data()$/;"	f
+get_power_data	get_data/get_data.c	/^int get_power_data(int uart_fd, int gpio_fd, int power_ch)$/;"	f	signature:(int uart_fd, int gpio_fd, int power_ch)
+get_switch_data	get_data/get_data.c	/^int get_switch_data(int sw_ch)$/;"	f	signature:(int sw_ch)
+get_temp_data	get_data/get_data.c	/^int get_temp_data()$/;"	f
+get_version	version/version.c	/^int get_version()$/;"	f
+get_version	version/version.h	/^int get_version(void);$/;"	p	signature:(void)
+gps	get_data/get_data.c	/^	int gps;$/;"	m	struct:data	file:	access:public
+gval	main.h	/^struct pavt_val gval;$/;"	v	typeref:struct:pavt_val
+hash	iniparser/dictionary.h	/^    unsigned     *  hash ;  \/** List of hash values for keys *\/$/;"	m	struct:_dictionary_	access:public
+i2c_msg	include/i2c-dev.h	/^struct i2c_msg {$/;"	s
+i2c_msg::addr	include/i2c-dev.h	/^	__u16 addr;	\/* slave address			*\/$/;"	m	struct:i2c_msg	access:public
+i2c_msg::buf	include/i2c-dev.h	/^	char *buf;		\/* pointer to msg data			*\/$/;"	m	struct:i2c_msg	access:public
+i2c_msg::flags	include/i2c-dev.h	/^	unsigned short flags;		$/;"	m	struct:i2c_msg	access:public
+i2c_msg::len	include/i2c-dev.h	/^	short len;		\/* msg length				*\/$/;"	m	struct:i2c_msg	access:public
+i2c_rdwr_ioctl_data	include/i2c-dev.h	/^struct i2c_rdwr_ioctl_data {$/;"	s
+i2c_rdwr_ioctl_data::msgs	include/i2c-dev.h	/^	struct i2c_msg *msgs;	\/* pointers to i2c_msgs *\/$/;"	m	struct:i2c_rdwr_ioctl_data	typeref:struct:i2c_rdwr_ioctl_data::i2c_msg	access:public
+i2c_rdwr_ioctl_data::nmsgs	include/i2c-dev.h	/^	int nmsgs;		\/* number of i2c_msgs *\/$/;"	m	struct:i2c_rdwr_ioctl_data	access:public
+i2c_smbus_access	include/i2c-dev.h	/^static inline __s32 i2c_smbus_access(int file, char read_write, __u8 command, $/;"	f	signature:(int file, char read_write, __u8 command, int size, union i2c_smbus_data *data)
+i2c_smbus_block_process_call	include/i2c-dev.h	/^static inline __s32 i2c_smbus_block_process_call(int file, __u8 command,$/;"	f	signature:(int file, __u8 command, __u8 length, __u8 *values)
+i2c_smbus_data	include/i2c-dev.h	/^union i2c_smbus_data {$/;"	u
+i2c_smbus_data::block	include/i2c-dev.h	/^	__u8 block[I2C_SMBUS_BLOCK_MAX + 2]; \/* block[0] is used for length *\/$/;"	m	union:i2c_smbus_data	access:public
+i2c_smbus_data::byte	include/i2c-dev.h	/^	__u8 byte;$/;"	m	union:i2c_smbus_data	access:public
+i2c_smbus_data::word	include/i2c-dev.h	/^	__u16 word;$/;"	m	union:i2c_smbus_data	access:public
+i2c_smbus_ioctl_data	include/i2c-dev.h	/^struct i2c_smbus_ioctl_data {$/;"	s
+i2c_smbus_ioctl_data::command	include/i2c-dev.h	/^	__u8 command;$/;"	m	struct:i2c_smbus_ioctl_data	access:public
+i2c_smbus_ioctl_data::data	include/i2c-dev.h	/^	union i2c_smbus_data *data;$/;"	m	struct:i2c_smbus_ioctl_data	typeref:union:i2c_smbus_ioctl_data::i2c_smbus_data	access:public
+i2c_smbus_ioctl_data::read_write	include/i2c-dev.h	/^	char read_write;$/;"	m	struct:i2c_smbus_ioctl_data	access:public
+i2c_smbus_ioctl_data::size	include/i2c-dev.h	/^	int size;$/;"	m	struct:i2c_smbus_ioctl_data	access:public
+i2c_smbus_process_call	include/i2c-dev.h	/^static inline __s32 i2c_smbus_process_call(int file, __u8 command, __u16 value)$/;"	f	signature:(int file, __u8 command, __u16 value)
+i2c_smbus_read_block_data	include/i2c-dev.h	/^static inline __s32 i2c_smbus_read_block_data(int file, __u8 command, $/;"	f	signature:(int file, __u8 command, __u8 *values)
+i2c_smbus_read_byte	include/i2c-dev.h	/^static inline __s32 i2c_smbus_read_byte(int file)$/;"	f	signature:(int file)
+i2c_smbus_read_byte_data	include/i2c-dev.h	/^static inline __s32 i2c_smbus_read_byte_data(int file, __u8 command)$/;"	f	signature:(int file, __u8 command)
+i2c_smbus_read_i2c_block_data	include/i2c-dev.h	/^static inline __s32 i2c_smbus_read_i2c_block_data(int file, __u8 command,$/;"	f	signature:(int file, __u8 command, __u8 length, __u8 *values)
+i2c_smbus_read_word_data	include/i2c-dev.h	/^static inline __s32 i2c_smbus_read_word_data(int file, __u8 command)$/;"	f	signature:(int file, __u8 command)
+i2c_smbus_write_block_data	include/i2c-dev.h	/^static inline __s32 i2c_smbus_write_block_data(int file, __u8 command, $/;"	f	signature:(int file, __u8 command, __u8 length, const __u8 *values)
+i2c_smbus_write_byte	include/i2c-dev.h	/^static inline __s32 i2c_smbus_write_byte(int file, __u8 value)$/;"	f	signature:(int file, __u8 value)
+i2c_smbus_write_byte_data	include/i2c-dev.h	/^static inline __s32 i2c_smbus_write_byte_data(int file, __u8 command, $/;"	f	signature:(int file, __u8 command, __u8 value)
+i2c_smbus_write_i2c_block_data	include/i2c-dev.h	/^static inline __s32 i2c_smbus_write_i2c_block_data(int file, __u8 command,$/;"	f	signature:(int file, __u8 command, __u8 length, const __u8 *values)
+i2c_smbus_write_quick	include/i2c-dev.h	/^static inline __s32 i2c_smbus_write_quick(int file, __u8 value)$/;"	f	signature:(int file, __u8 value)
+i2c_smbus_write_word_data	include/i2c-dev.h	/^static inline __s32 i2c_smbus_write_word_data(int file, __u8 command, $/;"	f	signature:(int file, __u8 command, __u16 value)
+id	get_data/get_data.c	/^	int id;$/;"	m	struct:data	file:	access:public
+iniparser_dump	iniparser/iniparser.c	/^void iniparser_dump(const dictionary * d, FILE * f)$/;"	f	signature:(const dictionary * d, FILE * f)
+iniparser_dump	iniparser/iniparser.h	/^void iniparser_dump(const dictionary * d, FILE * f);$/;"	p	signature:(const dictionary * d, FILE * f)
+iniparser_dump_ini	iniparser/iniparser.c	/^void iniparser_dump_ini(const dictionary * d, FILE * f)$/;"	f	signature:(const dictionary * d, FILE * f)
+iniparser_dump_ini	iniparser/iniparser.h	/^void iniparser_dump_ini(const dictionary * d, FILE * f);$/;"	p	signature:(const dictionary * d, FILE * f)
+iniparser_dumpsection_ini	iniparser/iniparser.c	/^void iniparser_dumpsection_ini(const dictionary * d, const char * s, FILE * f)$/;"	f	signature:(const dictionary * d, const char * s, FILE * f)
+iniparser_dumpsection_ini	iniparser/iniparser.h	/^void iniparser_dumpsection_ini(const dictionary * d, const char * s, FILE * f);$/;"	p	signature:(const dictionary * d, const char * s, FILE * f)
+iniparser_error_callback	iniparser/iniparser.c	/^static int (*iniparser_error_callback)(const char*, ...) = default_error_callback;$/;"	v	file:
+iniparser_find_entry	iniparser/iniparser.c	/^int iniparser_find_entry(const dictionary * ini, const char * entry)$/;"	f	signature:(const dictionary * ini, const char * entry)
+iniparser_find_entry	iniparser/iniparser.h	/^int iniparser_find_entry(const dictionary * ini, const char * entry) ;$/;"	p	signature:(const dictionary * ini, const char * entry)
+iniparser_freedict	iniparser/iniparser.c	/^void iniparser_freedict(dictionary * d)$/;"	f	signature:(dictionary * d)
+iniparser_freedict	iniparser/iniparser.h	/^void iniparser_freedict(dictionary * d);$/;"	p	signature:(dictionary * d)
+iniparser_getboolean	iniparser/iniparser.c	/^int iniparser_getboolean(const dictionary * d, const char * key, int notfound)$/;"	f	signature:(const dictionary * d, const char * key, int notfound)
+iniparser_getboolean	iniparser/iniparser.h	/^int iniparser_getboolean(const dictionary * d, const char * key, int notfound);$/;"	p	signature:(const dictionary * d, const char * key, int notfound)
+iniparser_getdouble	iniparser/iniparser.c	/^double iniparser_getdouble(const dictionary * d, const char * key, double notfound)$/;"	f	signature:(const dictionary * d, const char * key, double notfound)
+iniparser_getdouble	iniparser/iniparser.h	/^double iniparser_getdouble(const dictionary * d, const char * key, double notfound);$/;"	p	signature:(const dictionary * d, const char * key, double notfound)
+iniparser_getint	iniparser/iniparser.c	/^int iniparser_getint(const dictionary * d, const char * key, int notfound)$/;"	f	signature:(const dictionary * d, const char * key, int notfound)
+iniparser_getint	iniparser/iniparser.h	/^int iniparser_getint(const dictionary * d, const char * key, int notfound);$/;"	p	signature:(const dictionary * d, const char * key, int notfound)
+iniparser_getlongint	iniparser/iniparser.c	/^long int iniparser_getlongint(const dictionary * d, const char * key, long int notfound)$/;"	f	signature:(const dictionary * d, const char * key, long int notfound)
+iniparser_getlongint	iniparser/iniparser.h	/^long int iniparser_getlongint(const dictionary * d, const char * key, long int notfound);$/;"	p	signature:(const dictionary * d, const char * key, long int notfound)
+iniparser_getnsec	iniparser/iniparser.c	/^int iniparser_getnsec(const dictionary * d)$/;"	f	signature:(const dictionary * d)
+iniparser_getnsec	iniparser/iniparser.h	/^int iniparser_getnsec(const dictionary * d);$/;"	p	signature:(const dictionary * d)
+iniparser_getseckeys	iniparser/iniparser.c	/^const char ** iniparser_getseckeys(const dictionary * d, const char * s, const char ** keys)$/;"	f	signature:(const dictionary * d, const char * s, const char ** keys)
+iniparser_getseckeys	iniparser/iniparser.h	/^const char ** iniparser_getseckeys(const dictionary * d, const char * s, const char ** keys);$/;"	p	signature:(const dictionary * d, const char * s, const char ** keys)
+iniparser_getsecname	iniparser/iniparser.c	/^const char * iniparser_getsecname(const dictionary * d, int n)$/;"	f	signature:(const dictionary * d, int n)
+iniparser_getsecname	iniparser/iniparser.h	/^const char * iniparser_getsecname(const dictionary * d, int n);$/;"	p	signature:(const dictionary * d, int n)
+iniparser_getsecnkeys	iniparser/iniparser.c	/^int iniparser_getsecnkeys(const dictionary * d, const char * s)$/;"	f	signature:(const dictionary * d, const char * s)
+iniparser_getsecnkeys	iniparser/iniparser.h	/^int iniparser_getsecnkeys(const dictionary * d, const char * s);$/;"	p	signature:(const dictionary * d, const char * s)
+iniparser_getstring	iniparser/iniparser.c	/^const char * iniparser_getstring(const dictionary * d, const char * key, const char * def)$/;"	f	signature:(const dictionary * d, const char * key, const char * def)
+iniparser_getstring	iniparser/iniparser.h	/^const char * iniparser_getstring(const dictionary * d, const char * key, const char * def);$/;"	p	signature:(const dictionary * d, const char * key, const char * def)
+iniparser_line	iniparser/iniparser.c	/^static line_status iniparser_line($/;"	f	file:	signature:( const char * input_line, char * section, char * key, char * value)
+iniparser_load	iniparser/iniparser.c	/^dictionary * iniparser_load(const char * ininame)$/;"	f	signature:(const char * ininame)
+iniparser_load	iniparser/iniparser.h	/^dictionary * iniparser_load(const char * ininame);$/;"	p	signature:(const char * ininame)
+iniparser_set	iniparser/iniparser.c	/^int iniparser_set(dictionary * ini, const char * entry, const char * val)$/;"	f	signature:(dictionary * ini, const char * entry, const char * val)
+iniparser_set	iniparser/iniparser.h	/^int iniparser_set(dictionary * ini, const char * entry, const char * val);$/;"	p	signature:(dictionary * ini, const char * entry, const char * val)
+iniparser_set_error_callback	iniparser/iniparser.c	/^void iniparser_set_error_callback(int (*errback)(const char *, ...))$/;"	f	signature:(int (*errback)(const char *, ...))
+iniparser_set_error_callback	iniparser/iniparser.h	/^void iniparser_set_error_callback(int (*errback)(const char *, ...));$/;"	p	signature:(int (*errback)(const char *, ...))
+iniparser_unset	iniparser/iniparser.c	/^void iniparser_unset(dictionary * ini, const char * entry)$/;"	f	signature:(dictionary * ini, const char * entry)
+iniparser_unset	iniparser/iniparser.h	/^void iniparser_unset(dictionary * ini, const char * entry);$/;"	p	signature:(dictionary * ini, const char * entry)
+init_panel	front_panel/front_panel.c	/^void init_panel()$/;"	f
+input_handler	key/key.c	/^void input_handler(int num)  $/;"	f	signature:(int num)
+inuart_fd	main.h	/^	int inuart_fd;$/;"	m	struct:pavt_dev	access:public
+key	iniparser/dictionary.h	/^    char        **  key ;   \/** List of string keys *\/$/;"	m	struct:_dictionary_	access:public
+key_fd	main.h	/^	int key_fd;$/;"	m	struct:pavt_dev	access:public
+key_val	main.h	/^	int key_val;$/;"	m	struct:pavt_val	access:public
+keypad_fd	key/key.c	/^int keypad_fd;$/;"	v
+led	main.h	/^	char led[16];$/;"	m	struct:pavt_val	access:public
+led_init	front_panel/led.c	/^int led_init()$/;"	f
+led_init	front_panel/led.h	/^int led_init();$/;"	p	signature:()
+len	include/i2c-dev.h	/^	short len;		\/* msg length				*\/$/;"	m	struct:i2c_msg	access:public
+line_status	iniparser/iniparser.c	/^} line_status ;$/;"	t	typeref:enum:_line_status_	file:
+main	main.c	/^int main(void)$/;"	f	signature:(void)
+main	net/server.c	/^int main(void)$/;"	f	signature:(void)
+mix_fd	main.h	/^	int mix_fd;$/;"	m	struct:pavt_dev	access:public
+mode	spi/spi.c	/^static uint8_t mode;$/;"	v	file:
+msgs	include/i2c-dev.h	/^	struct i2c_msg *msgs;	\/* pointers to i2c_msgs *\/$/;"	m	struct:i2c_rdwr_ioctl_data	typeref:struct:i2c_rdwr_ioctl_data::i2c_msg	access:public
+n	iniparser/dictionary.h	/^    int             n ;     \/** Number of entries in dictionary *\/$/;"	m	struct:_dictionary_	access:public
+net_service	net/client.c	/^int net_service(void)$/;"	f	signature:(void)
+net_service	net/client.h	/^int net_service();$/;"	p	signature:()
+next	pool/pool.h	/^    struct worker *next;$/;"	m	struct:worker	typeref:struct:worker::worker	access:public
+nmsgs	include/i2c-dev.h	/^	int nmsgs;		\/* number of i2c_msgs *\/$/;"	m	struct:i2c_rdwr_ioctl_data	access:public
+oled	main.h	/^	char oled[4][16];$/;"	m	struct:pavt_val	access:public
+oled_init	front_panel/oled.c	/^void oled_init()$/;"	f
+oled_init	front_panel/oled.h	/^void oled_init();$/;"	p	signature:()
+open_port	serial/serial.c	/^int open_port(char *dir)$/;"	f	signature:(char *dir)
+open_port	serial/serial.h	/^int open_port(char *dir);$/;"	p	signature:(char *dir)
+pabort	spi/spi.c	/^static void pabort(const char *s)$/;"	f	file:	signature:(const char *s)
+page	main.h	/^	int page;$/;"	m	struct:pavt_val	access:public
+panel_fd	main.h	/^	int panel_fd;$/;"	m	struct:pavt_dev	access:public
+pavt_dev	main.h	/^struct pavt_dev {$/;"	s
+pavt_dev::address	main.h	/^	struct sockaddr_in address;  $/;"	m	struct:pavt_dev	typeref:struct:pavt_dev::sockaddr_in	access:public
+pavt_dev::clifd	main.h	/^	int clifd;$/;"	m	struct:pavt_dev	access:public
+pavt_dev::exuart_addr	main.h	/^	int exuart_addr;$/;"	m	struct:pavt_dev	access:public
+pavt_dev::exuart_fd	main.h	/^	int exuart_fd;$/;"	m	struct:pavt_dev	access:public
+pavt_dev::inuart_fd	main.h	/^	int inuart_fd;$/;"	m	struct:pavt_dev	access:public
+pavt_dev::key_fd	main.h	/^	int key_fd;$/;"	m	struct:pavt_dev	access:public
+pavt_dev::mix_fd	main.h	/^	int mix_fd;$/;"	m	struct:pavt_dev	access:public
+pavt_dev::panel_fd	main.h	/^	int panel_fd;$/;"	m	struct:pavt_dev	access:public
+pavt_val	main.h	/^struct pavt_val {$/;"	s
+pavt_val::key_val	main.h	/^	int key_val;$/;"	m	struct:pavt_val	access:public
+pavt_val::led	main.h	/^	char led[16];$/;"	m	struct:pavt_val	access:public
+pavt_val::oled	main.h	/^	char oled[4][16];$/;"	m	struct:pavt_val	access:public
+pavt_val::page	main.h	/^	int page;$/;"	m	struct:pavt_val	access:public
+pool	pool/pool.c	/^static ThreadPool *pool = NULL;$/;"	v	file:
+pool_add_worker	pool/pool.c	/^int pool_add_worker(WorkHandle process, void *arg)$/;"	f	signature:(WorkHandle process, void *arg)
+pool_add_worker	pool/pool.h	/^extern int   pool_add_worker();$/;"	p	signature:()
+pool_destroy	pool/pool.c	/^void pool_destroy()$/;"	f
+pool_destroy	pool/pool.h	/^extern void  pool_destroy();$/;"	p	signature:()
+pool_init	pool/pool.c	/^void pool_init(int thread_pool_sum)$/;"	f	signature:(int thread_pool_sum)
+pool_init	pool/pool.h	/^extern void  pool_init();$/;"	p	signature:()
+power	get_data/get_data.c	/^	int power;$/;"	m	struct:data	file:	access:public
+process	pool/pool.h	/^    void *(*process)(void *arg);$/;"	m	struct:worker	access:public
+pwm_config	board/pwm_create.c	/^int pwm_config(unsigned int pwm, unsigned int period, unsigned int duty_cycle)$/;"	f	signature:(unsigned int pwm, unsigned int period, unsigned int duty_cycle)
+pwm_config	board/pwmconfig.h	/^int pwm_config(unsigned int pwm, unsigned int period, unsigned int duty_cycle);$/;"	p	signature:(unsigned int pwm, unsigned int period, unsigned int duty_cycle)
+pwm_disable	board/pwm_create.c	/^int pwm_disable(unsigned int pwm)$/;"	f	signature:(unsigned int pwm)
+pwm_disable	board/pwmconfig.h	/^int pwm_disable(unsigned int pwm);$/;"	p	signature:(unsigned int pwm)
+pwm_enable	board/pwm_create.c	/^int pwm_enable(unsigned int pwm)$/;"	f	signature:(unsigned int pwm)
+pwm_enable	board/pwmconfig.h	/^int pwm_enable(unsigned int pwm);$/;"	p	signature:(unsigned int pwm)
+pwm_export	board/pwm_create.c	/^int pwm_export(unsigned int pwm)$/;"	f	signature:(unsigned int pwm)
+pwm_export	board/pwmconfig.h	/^int pwm_export(unsigned int pwm);$/;"	p	signature:(unsigned int pwm)
+pwm_unexport	board/pwm_create.c	/^int pwm_unexport(unsigned int pwm)$/;"	f	signature:(unsigned int pwm)
+pwm_unexport	board/pwmconfig.h	/^int pwm_unexport(unsigned int pwm);$/;"	p	signature:(unsigned int pwm)
+queue_head	pool/pool.h	/^    Worker *queue_head;$/;"	m	struct:__anon1	access:public
+queue_lock	pool/pool.h	/^    pthread_mutex_t queue_lock;$/;"	m	struct:__anon1	access:public
+queue_ready	pool/pool.h	/^    pthread_cond_t  queue_ready;$/;"	m	struct:__anon1	access:public
+read_data	serial/serial.c	/^int read_data(int fd, char *buf, int len, int time_ms)$/;"	f	signature:(int fd, char *buf, int len, int time_ms)
+read_key	front_panel/front_panel.c	/^void read_key(int num)$/;"	f	signature:(int num)
+read_write	include/i2c-dev.h	/^	char read_write;$/;"	m	struct:i2c_smbus_ioctl_data	access:public
+rs232_read	serial/serial.c	/^int rs232_read(char *r_buf)$/;"	f	signature:(char *r_buf)
+rs232_write	serial/serial.c	/^int rs232_write(char *w_buf)$/;"	f	signature:(char *w_buf)
+rs485_enable	serial/serial.c	/^int rs485_enable(const int fd, const RS485_ENABLE_t enable)$/;"	f	signature:(const int fd, const RS485_ENABLE_t enable)
+rs485_enable	serial/serial.h	/^int rs485_enable(const int fd, const RS485_ENABLE_t enable);$/;"	p	signature:(const int fd, const RS485_ENABLE_t enable)
+rs485_read	serial/serial.c	/^int rs485_read(int channel, char *r_buf)$/;"	f	signature:(int channel, char *r_buf)
+rs485_read	serial/serial.h	/^int rs485_read(int channel, char *r_buf);$/;"	p	signature:(int channel, char *r_buf)
+rs485_write	serial/serial.c	/^int rs485_write(int channel, char *w_buf)$/;"	f	signature:(int channel, char *w_buf)
+rs485_write	serial/serial.h	/^int rs485_write(int channel, char *w_buf);$/;"	p	signature:(int channel, char *w_buf)
+scan_com	scan_com/scan_com.c	/^void *scan_com(void *a)$/;"	f	signature:(void *a)
+scan_com	scan_com/scan_com.h	/^void *scan_com(void *);$/;"	p	signature:(void *)
+scan_exuart	scan_com/scan_com.c	/^int scan_exuart()$/;"	f
+send_key_val	key/key.c	/^void *send_key_val(void *a)$/;"	f	signature:(void *a)
+send_key_val	key/other_gpio.h	/^void *send_key_val(void *);$/;"	p	signature:(void *)
+send_spi_heart	spi/spi.c	/^void *send_spi_heart(void *a)$/;"	f	signature:(void *a)
+send_spi_heart	spi/spi.h	/^void *send_spi_heart(void *);$/;"	p	signature:(void *)
+set_port	serial/serial.c	/^int set_port(int fd, int nSpeed, int nBits, char nEvent, int nStop)$/;"	f	signature:(int fd, int nSpeed, int nBits, char nEvent, int nStop)
+set_port	serial/serial.h	/^int set_port(int fd, int nSpeed, int nBits, char nEvent, int nStop);$/;"	p	signature:(int fd, int nSpeed, int nBits, char nEvent, int nStop)
+show_last_page	front_panel/front_panel.c	/^void show_last_page()$/;"	f
+show_next_page	front_panel/front_panel.c	/^void show_next_page()$/;"	f
+show_page	front_panel/front_panel.c	/^void show_page()$/;"	f
+size	include/i2c-dev.h	/^	int size;$/;"	m	struct:i2c_smbus_ioctl_data	access:public
+size	iniparser/dictionary.h	/^    ssize_t         size ;  \/** Storage size *\/$/;"	m	struct:_dictionary_	access:public
+speed	spi/spi.c	/^static uint32_t speed = 500000;$/;"	v	file:
+strlwc	iniparser/iniparser.c	/^static const char * strlwc(const char * in, char *out, unsigned len)$/;"	f	file:	signature:(const char * in, char *out, unsigned len)
+strstrip	iniparser/iniparser.c	/^static unsigned strstrip(char * s)$/;"	f	file:	signature:(char * s)
+thread_pool_sum	pool/pool.h	/^    int thread_pool_sum; \/* 当前总的任务队列数 *\/$/;"	m	struct:__anon1	access:public
+thread_routine	pool/pool.c	/^void *thread_routine(void *args)$/;"	f	signature:(void *args)
+threadid	pool/pool.h	/^    pthread_t * threadid;$/;"	m	struct:__anon1	access:public
+transfer	spi/spi.c	/^static void transfer(int fd, int val)$/;"	f	file:	signature:(int fd, int val)
+u16	include/type.h	/^typedef unsigned short  u16;$/;"	t
+u32	include/type.h	/^typedef unsigned int    u32;$/;"	t
+u8	include/type.h	/^typedef unsigned char   u8;$/;"	t
+update_data	get_data/get_data.c	/^int update_data(void)$/;"	f	signature:(void)
+update_data	get_data/get_data.h	/^int update_data(void);$/;"	p	signature:(void)
+val	iniparser/dictionary.h	/^    char        **  val ;   \/** List of string values *\/$/;"	m	struct:_dictionary_	access:public
+word	include/i2c-dev.h	/^	__u16 word;$/;"	m	union:i2c_smbus_data	access:public
+worker	pool/pool.h	/^struct worker$/;"	s
+worker::arg	pool/pool.h	/^    void *arg;$/;"	m	struct:worker	access:public
+worker::next	pool/pool.h	/^    struct worker *next;$/;"	m	struct:worker	typeref:struct:worker::worker	access:public
+worker::process	pool/pool.h	/^    void *(*process)(void *arg);$/;"	m	struct:worker	access:public
+write_log	main.c	/^int write_log(char *str)$/;"	f	signature:(char *str)
+xstrdup	iniparser/dictionary.c	/^static char * xstrdup(const char * s)$/;"	f	file:	signature:(const char * s)
+xstrdup	iniparser/iniparser.c	/^static char * xstrdup(const char * s)$/;"	f	file:	signature:(const char * s)

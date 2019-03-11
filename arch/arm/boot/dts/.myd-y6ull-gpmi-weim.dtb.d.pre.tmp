@@ -1,0 +1,10 @@
+myd-y6ull-gpmi-weim.o: arch/arm/boot/dts/myd-y6ull-gpmi-weim.dts \
+ arch/arm/boot/dts/myb-y6ull-14x14.dts \
+ arch/arm/boot/dts/include/dt-bindings/input/input.h \
+ arch/arm/boot/dts/imx6ull.dtsi \
+ arch/arm/boot/dts/include/dt-bindings/clock/imx6ul-clock.h \
+ arch/arm/boot/dts/include/dt-bindings/gpio/gpio.h \
+ arch/arm/boot/dts/include/dt-bindings/interrupt-controller/arm-gic.h \
+ arch/arm/boot/dts/include/dt-bindings/interrupt-controller/irq.h \
+ arch/arm/boot/dts/imx6ull-pinfunc.h arch/arm/boot/dts/imx6ul-pinfunc.h \
+ arch/arm/boot/dts/imx6ull-pinfunc-snvs.h arch/arm/boot/dts/skeleton.dtsi

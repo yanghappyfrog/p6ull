@@ -1,0 +1,10 @@
+device number:
+keypad:		200
+uart_gpio:	201
+other_gpio: 202
+DMX512_GPIO:203
+ex1:		204	
+ex2:		205	
+ex3:		206	
+ex4:		207	
+

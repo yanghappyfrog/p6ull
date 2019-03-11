@@ -1,0 +1,10 @@
+#page 4
+#gps和光感信息
+#GPS:位置信息
+#LUX:光照信息
+[gps_data]
+gps_lat=
+gps_lng=
+lux=
+temp=
+

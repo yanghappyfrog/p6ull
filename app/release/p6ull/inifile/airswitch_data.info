@@ -1,0 +1,45 @@
+
+[aw_data]
+num_slave                      = 1000000000
+[aw1]
+num_air                        = 
+cmdstatus                      = 
+airstatus                      = 
+[aw2]
+num_air                        = 
+cmdstatus                      = 
+airstatus                      = 
+[aw3]
+num_air                        = 
+cmdstatus                      = 
+airstatus                      = 
+[aw4]
+num_air                        = 
+cmdstatus                      = 
+airstatus                      = 
+[aw5]
+num_air                        = 
+cmdstatus                      = 
+airstatus                      = 
+[aw6]
+num_air                        = 
+cmdstatus                      = 
+airstatus                      = 
+[aw7]
+num_air                        = 
+cmdstatus                      = 
+airstatus                      = 
+[aw8]
+num_air                        = 
+cmdstatus                      = 
+airstatus                      = 
+[aw9]
+num_air                        = 
+cmdstatus                      = 
+airstatus                      = 
+[aw10]
+num_air                        = 
+cmdstatus                      = 
+airstatus                      = 
+
+

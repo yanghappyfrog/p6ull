@@ -1,0 +1,1 @@
+cmd_drivers/dma/built-in.o :=  arm-poky-linux-gnueabi-ld -EL    -r -o drivers/dma/built-in.o drivers/dma/dmaengine.o drivers/dma/virt-dma.o drivers/dma/of-dma.o drivers/dma/ipu/built-in.o drivers/dma/pxp/built-in.o drivers/dma/imx-sdma.o drivers/dma/mxs-dma.o drivers/dma/xilinx/built-in.o 

@@ -1,0 +1,7 @@
+#电能表信息
+#A,B,C:三相电流及电压信息
+[power_data]
+power=
+A=
+B=
+C=

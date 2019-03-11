@@ -1,0 +1,40 @@
+p437x控制软件
+
+配置文件放置于设备 /root/pavt/info/和 /root/pavt/ini/这两个目录中，程序会读写这些文件。
+	cir_data.info: 保存每个回路电流信息，A.B.C三相电压信息
+	ex_uart.info: 保存各个扩展口接入设备信息
+	gps_data.info: 保存GPS和光照强度信息
+	power_data.info: 保存电能表信息
+	p437x.ini:保存设备的一些设置信息，包括开关间隔时间，网络状态，柜门开关状态等。
+
+自定义指令：
+1.握手指令：		<AT_CHECK0>
+  回复：回路控制器：	<CIRCUIT_ON/OFF_CH00_DATA_OK>
+	GPS光感模块：	<LUX_GPS_DATA_OK>
+	开关模块：	<SWITCH_DATA_OK>
+	电能表模块：	<POWER_OK>
+		
+2.开关模块查询状态指令：<AT_CHECK0_DOOR>
+  回复： 门打开报警：	<DOOR_alarm>
+	 门关闭：	<DOOR_close>
+		 
+3.回路控制器控制指令：	
+	控制单个继电器：	<AT_CHECK0_CIRCUIT_ON/OFF_ONE_010>
+    	回复：			<State_CH000>
+	控制全部继电器：	<AT_CHECK0_CIRCUIT_ON/OFF_DATA_000000000000_00500>
+	回复：		 	<All_State_CH12_[CH01_1][CH02_1][CH03_1][CH04_3][CH05_1][CH06_1][CH07_1][CH08_1][CH09_1][CH10_1][CH11_1][CH12_1]>
+	读取电流电压数据：	<AT_CHECK0_CIRCUIT_CURRENT_DATA>
+	回复			<CIRCUIT_CURRENT_DATA_CH00_[A_230.0][B_230.0][C_230.0][001/49.99/1][002/49.99/1][003/49.99/1][004/49.99/1][005/49.99/1][006/49.99/1][007/49.99/1][008/49.99/1][009/49.99/1][010/49.99/1][011/49.99/1][012/49.99/1]>
+
+4.GPS光感指令：
+	查询gps和光照指令：	<AT_CHECK0_LUX_GPS_DATA>
+	回复：			<LUX_GPS_DATA_000247.84/$GNGGA,002652.000,2240.473277,N,11355.484518,E,0,00,127.000,45.607,M,0,M,,*5B>
+	
+
+
+
+
+
+
+
+
